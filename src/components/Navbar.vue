@@ -1,8 +1,7 @@
 <template>
     <nav>
-        <a href="#"><img src="" alt=""></a>
-        <a href="">Todos los Productos</a>
-        <a href="">Contacto</a>
+        <router-link to="/"><img src="" alt=""></router-link>
+        <router-link :to="`/products/${id}`">Todos los Productos</router-link>
     </nav>
 </template>
 
